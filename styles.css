@@ -20,7 +20,8 @@ body {
 #about {
     background-color: yellow;
     border-radius: 8px;
-    height: 1000 px;
+    overflow: auto;
+    height:500px;
     width: 100%;
     padding: 10px;
     position: relative;
