@@ -22,23 +22,31 @@ body {
     border-radius: 8px;
     overflow: auto;
     height:500px;
-    width: 100%;
+    width: 300px;
     padding: 10px;
+    margin: 5px;
     position: relative;
     overflow-y: auto;
 
 }
 
+.contain{
+    display: flex;
+    justify-content: space-around;
+}
+
 #CreatePlan {
     background-color: blue;
     border-radius: 8px;
-    width: 100%;
+    width: 700px;
+    padding: 10px;
+    margin: 5px;
 }
 
 #Contact {
     background-color: purple;
     border-radius: 8px;
-    width: 100%;
+    width: 300px;
 }
 
 footer {
