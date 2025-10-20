@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#navigation {
+    background-color: pink;
+    margin: 5px auto;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#head {
+    background-color:aqua;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#about {
+    background-color: yellow;
+    border-radius: 8px;
+    height: 1000 px;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    overflow-y: auto;
+
+}
+
+#CreatePlan {
+    background-color: blue;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#Contact {
+    background-color: purple;
+    border-radius: 8px;
+    width: 100%;
+}
+
+footer {
+    color: orange;
+}
