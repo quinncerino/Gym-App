@@ -1,70 +1,129 @@
+/* === GLOBAL STYLING === */
 body {
-    background-image: url("img/hermes-rivera-258743-unsplash-1024x683.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: relative;
-    background-attachment: fixed;
-    position: relative;
-}
-#navigation {
-    background-color: rgba(255, 192, 203, 0.308);
-    margin: 5px auto;
-    border-radius: 8px;
-    width: 100%;
-    position:flex;
+    background: url("img/hermes-rivera-258743-unsplash-1024x683.jpg") center/cover no-repeat fixed;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
+/* === HEADER === */
 #head {
-    background-color:rgba(0, 255, 255, 0.24);
-    border-radius: 8px;
+    background-color: rgba(0, 255, 255, 0.25);
+    border-radius: 0 0 10px 10px;
     width: 100%;
     text-align: center;
+    padding: 20px 0 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    backdrop-filter: blur(5px);
 }
 
+#head h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* === NAVIGATION === */
+#navigation {
+    background-color: rgba(255, 192, 203, 0.3);
+    padding: 12px 0;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 900px;
+    margin: 15px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    backdrop-filter: blur(6px);
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#navigation a:hover {
+    color: rgb(255, 180, 200);
+}
+
+/* === CONTAINER === */
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* === SECTIONS === */
+section {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* About Section */
 #about {
-    background-color: rgba(255, 255, 255, 0.349);
-    border-radius: 8px;
-    overflow: auto;
-    height: auto;
-    width:auto;
-    max-height:300px;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #000;
     max-width: 800px;
-    padding: 10px;
-    margin: 5px;
-    position: flex;
-    overflow-y: auto;
-    overflow-x: auto;
 }
 
-.contain{
-    display: relative;
-    justify-content: space-around;
-}
-
+/* Create Plan Section */
 #CreatePlan {
-    background-color: rgba(0, 0, 255, 0.233);
-    border-radius: 8px;
-    height:auto;
-    width: auto;
+    background-color: rgba(0, 0, 255, 0.25);
+    color: #fff;
     max-width: 800px;
-    max-height: 600px;
-    padding: 10px;
-    margin: 5px;
-    position: flex;
-    overflow-x: auto;
 }
 
+/* Contact Section */
 #Contact {
-    background-color: purple;
-    border-radius: 8px;
+    background-color: rgba(128, 0, 128, 0.4);
+    color: white;
+    text-align: center;
+    width: 90%;
     max-width: 800px;
-    padding: 10px;
-    margin: 5px;
-    position: flex;
-    overflow-x: auto;
 }
 
+/* === FOOTER === */
 footer {
     color: rgb(255, 38, 0);
-    margin: 5px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+    #head h1 {
+        font-size: 1.6rem;
+    }
+
+    #navigation a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .contain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
 }
