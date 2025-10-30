@@ -21,12 +21,19 @@ The project is lightweight and modular, built to expand into a full-featured AI-
 🧠 Expandable Architecture – Ready for future AI or database integration
 
 🧩 Tech Stack
+
 Layer	Technology
+
 Frontend	HTML, CSS, JavaScript
+
 Backend	Python (backend.py, backendv2.py)
+
 Data Storage	JSON / Flat file (to be upgraded to database)
+
 Version Control	Git + GitHub
+
 Deployment	Localhost (future cloud deployment planned)
+
 📁 Project Structure
 Gym-App/
 │
