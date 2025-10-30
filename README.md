@@ -35,14 +35,23 @@ Version Control	Git + GitHub
 Deployment	Localhost (future cloud deployment planned)
 
 📁 Project Structure
+
 Gym-App/
+
 │
+
 ├── index.html          # Main dashboard
+
 ├── login.html          # User login page
+
 ├── styles.css          # UI styling
+
 ├── backend.py          # Initial backend script
+
 ├── backendv2.py        # Updated backend version
+
 ├── img/                # Images and icons
+
 └── README.md           # Documentation
 
 💻 Installation & Setup
