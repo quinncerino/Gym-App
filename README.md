@@ -1,4 +1,5 @@
-#Gym-App
+# Gym-App
+
 An interactive gym tracking web application built with HTML, CSS, JavaScript, and Python.
 The Gym App helps users log workouts, monitor progress, and manage their fitness data — all within a clean, intuitive interface.
 
