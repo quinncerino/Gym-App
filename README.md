@@ -118,8 +118,6 @@ Open a Pull Request
 Please keep code clean and well-commented.
 
 🧾 License
-
-This project is licensed under the MIT License
 .
 Feel free to use, modify, and share with attribution.
 
